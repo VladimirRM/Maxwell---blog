@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import "./Header.css";
 
-const Header = () => {
+ export const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <header>
+      <nav>
+        <a href="#first">Home</a>
+        <a href="#second">About</a>
+        <a href="third">Contact</a>
+      </nav>
+    </header>
+  );
+};
+            
 
-export default Header

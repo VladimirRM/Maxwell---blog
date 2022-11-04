@@ -1,15 +1,10 @@
 import "./App.css";
+import { Header } from "./Components/Header/Header";
 
- export function App() {
+export function App() {
+  <Header />;
   return (
     <div className="App">
-      <header>
-        <nav>
-          <a href="#first">Home</a>
-          <a href="#second">About</a>
-          <a href="third">Contact</a>
-        </nav>
-      </header>
       <main>
         <h1>Simple Blog</h1>
         <div className="posts">
@@ -51,5 +46,3 @@ import "./App.css";
     </div>
   );
 }
-
-
