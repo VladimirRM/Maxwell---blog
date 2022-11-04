@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 
- export const Header = () => {
+export const Header = () => {
   return (
     <header>
       <nav>
@@ -12,5 +12,3 @@ import "./Header.css";
     </header>
   );
 };
-            
-
