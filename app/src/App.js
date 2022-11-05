@@ -1,5 +1,6 @@
 import "./App.css";
-import { BlogContent } from "./Components/BlogContent/BlogContent";
+import { BlogContent } from "./Components/BlogePage/BlogContent";
+import Footer from "./Components/Footer/Footer";
 import { Header } from "./Components/Header/Header";
 
 export function App() {
@@ -9,7 +10,7 @@ export function App() {
       <main>
       <BlogContent/>
       </main>
-     
+     <Footer/>
     </div>
   );
 }
