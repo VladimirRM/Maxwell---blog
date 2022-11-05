@@ -23,6 +23,10 @@ export const BlogContent = () => {
     },
   ];
 
+  const blogPosts = posts.map((item)=>(
+
+  ))
+
   return (
     <>
       <h1>Simple Blog</h1>
