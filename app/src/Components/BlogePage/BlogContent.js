@@ -13,7 +13,9 @@ export const BlogContent = () => {
       </div>
     );
   });
-  const getAmountOfPosts
+  const getAmountOfPosts =(arr)=>{
+       return`Amount off posts => ${arr.length}`
+  }
 
   return (
     <>
@@ -22,7 +24,7 @@ export const BlogContent = () => {
         {blogPosts}
       </div>
       <div className="count">
-        <button onClick={}>Get amount of posts</button>
+        <button onClick={getAmountOfPosts}>Get amount of posts</button>
       </div>
     </>
   );
