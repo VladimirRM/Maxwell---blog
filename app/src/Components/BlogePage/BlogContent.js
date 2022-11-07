@@ -1,30 +1,24 @@
 import React from "react";
 import "./BlogContent.css";
-import {posts} from '../../Shared/projectData'
+import { posts } from "../../Shared/projectData";
 
 export const BlogContent = () => {
- 
-
   const blogPosts = posts.map((item) => {
     return (
-      <div  key={item.id}className="post">
+      <div key={item.id} className="post">
         <h2>{item.title}</h2>
         <p>{item.description}</p>
       </div>
     );
   });
-  const getAmountOfPosts =(arr)=>{
-       return`Amount off posts => ${arr.length}`
-  }
+ 
 
   return (
     <>
       <h1>Simple Blog</h1>
-      <div className="posts">
-        {blogPosts}
-      </div>
+      <div className="posts">{blogPosts}</div>
       <div className="count">
-        <button onClick={getAmountOfPosts}>Get amount of posts</button>
+        <button onClick={getAmountOfPosts(posts)}>Get amount of posts</button>
       </div>
     </>
   );
