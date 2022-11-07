@@ -23,7 +23,7 @@ export const BlogContent = () => {
     },
   ];
 
-  const blogPosts = posts.map(() => {
+  const blogPosts = posts.map((item) => {
     return (
       <div className="post">
         <h2>{item.title}</h2>
