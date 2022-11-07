@@ -1,11 +1,14 @@
-.header {
+header {
+    justify-content: center;
   text-align: center;
+  display: flex;
   padding: 10px;
   box-shadow: rgb(204, 204, 204) 0 2 10px;
   height: 50px;
+  
 }
 
-.header {
+header {
   color: #000;
   font-weight: 500;
   transition: all 0.2s linear;

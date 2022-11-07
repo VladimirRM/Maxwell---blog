@@ -1,5 +1,6 @@
 import React from "react";
 import "./BlogContent.css";
+import {posts} from '../../Shared/projectData'
 
 export const BlogContent = () => {
  
@@ -12,6 +13,7 @@ export const BlogContent = () => {
       </div>
     );
   });
+  const getAmountOfPosts
 
   return (
     <>
@@ -20,7 +22,7 @@ export const BlogContent = () => {
         {blogPosts}
       </div>
       <div className="count">
-        <button>Get amount of posts</button>
+        <button onClick={}>Get amount of posts</button>
       </div>
     </>
   );
