@@ -1,5 +1,5 @@
 import "./App.css";
-import { BlogContent } from "./Components/BlogePage/BlogContent";
+import { BlogContent } from "./Components/BlogeContent/BlogContent";
 import Footer from "./Components/Footer/Footer";
 import { Header } from "./Components/Header/Header";
 
