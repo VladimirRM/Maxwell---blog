@@ -4,11 +4,13 @@ import { posts } from "../../Shared/projectData";
 import {  getAmountOfPosts } from "../../Shared/projectLogic";
 import { BlogCard } from "./Components/BlogCard";
 
+
 export const BlogContent = () => {
   const blogPosts = posts.map((item) => {
     return (
       <BlogCard
-      
+      title={item.title}
+      description={item.description}
       
       />
     );
