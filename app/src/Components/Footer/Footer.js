@@ -1,11 +1,11 @@
 import React from "react";
 import "./Footer.css";
 
-const Footer = () => {
+const Footer = ({year}) => {
   return (
     <div>
       <footer>
-        <span>React-blog 2022</span>
+        <span>React-blog {year}</span>
       </footer>
     </div>
   );
