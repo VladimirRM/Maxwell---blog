@@ -7,7 +7,7 @@
     },
     {
       id: 2,
-      title: "Post 1",
+      title: "Post 2",
       description:
         " Crime surges and falls for reasons that experts don’t fully , and many elected offices have little power to change trends on the ground. ",
     },
