@@ -9,6 +9,7 @@ export const BlogContent = () => {
   const blogPosts = posts.map((item) => {
     return (
       <BlogCard
+      key={item.id}
       title={item.title}
       description={item.description}
       
